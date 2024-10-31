@@ -1,0 +1,193 @@
+@font-face{
+	font-family: 'octolio';
+	src: url('../fonts/octolio.eot?nv1dbk');
+	src: url('../fonts/octolio.eot?nv1dbk#iefix') format('embedded-opentype'),
+	url('../fonts/octolio.ttf?nv1dbk') format('truetype'),
+	url('../fonts/octolio.woff?nv1dbk') format('woff'),
+	url('../fonts/octolio.svg?nv1dbk#octolio') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="octolio-"], [class*=" octolio-"]{
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'octolio' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.octolio-trash-o:before{
+	content: "\f014";
+}
+
+.octolio-download:before{
+	content: "\f019";
+}
+
+.octolio-check-circle-o:before{
+	content: "\f05d";
+}
+
+.octolio-exclamation-triangle:before{
+	content: "\f071";
+}
+
+
+.cpt_type_section, #octolio_container h2{
+	text-align: center;
+}
+
+.and_params, .action_params{
+	border-left: 4px solid #c9c9c9;
+	border-radius: 3px;
+	padding: 5px;
+	margin: 10px 0 10px 5px;
+	transition: background-color .2s;
+	width: 100%;
+}
+
+.or_conditions_container, .actions_container{
+	width: 80%;
+	margin-left: 10rem;
+}
+
+.and_conditions_container{
+	border-left: 4px solid #efc7c2;
+	border-radius: 3px;
+	transition: background-color .2s;
+	width: 100%;
+}
+
+.or_condition_wrapper, .and_condition_wrapper, .one_action_wrapper{
+	display: flex;
+	align-items: center;
+}
+
+.and_link{
+	padding-left: 2rem;
+}
+
+.and_params, .and_conditions_container, .action_params{
+	margin-left: 1rem;
+}
+
+.and_params{
+	padding-left: 0.5rem;
+}
+
+.and_delete, .or_delete, .action_delete{
+	width: 1rem;
+	cursor: pointer;
+	transition: transform .2s;
+	transform: translateX(10px);
+	color: #e44328;
+}
+
+.and_params:hover, .action_params:hover{
+	background-color: #f1f1f1;
+}
+
+.or_condition{
+	margin: 1rem 0 2rem 0;
+}
+
+#octolio_cpt_metabox .add_and_section{
+	margin: 0 0 0.8rem 2rem;
+}
+
+#octolio_cpt_metabox .add_or_section{
+	margin: 0.8rem 0 0 0;
+}
+
+.octolio_filter_params, .octolio_action_params{
+	padding: 10px 0 0 0;
+}
+
+#octolio_cpt_metabox .octolio_cpt_block_title{
+	font-weight: bold !important;
+}
+
+.octolio_filter_params, .octolio_action_params select, input{
+	margin: 5px 4px;
+	vertical-align: text-bottom;
+}
+
+hr.rounded{
+	border-top: 4px solid #a5ccff;
+	border-radius: 5px;
+	margin: 0.8rem 20rem 0 20rem;
+}
+
+.or_link{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 10%;
+	margin: auto;
+}
+
+.or_link::before, .or_link::after{
+	content: '';
+	flex: 1;
+	border-bottom: 1px solid #000;
+}
+
+.or_link::before{
+	margin-right: .25em;
+}
+
+.or_link::after{
+	margin-left: .25em;
+}
+
+.warning{
+	padding: 0.5rem;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+
+}
+
+.octolio_save_db input{
+	margin: auto;
+}
+
+.octolio_save_db .submit{
+	margin: 0.5rem 0rem 0rem 0rem;
+	width: 50%;
+	display: inline-block;
+	padding: 0;
+}
+
+.octolio_save_db .save_db_result{
+	font-size: 0.8rem;
+}
+
+.octolio_save_db .octolio-check-circle-o{
+	margin-right: 0.3rem;
+	color: #84dccf;
+}
+
+.octolio_save_db .fa-exclamation-triangle{
+	margin-right: 0.3rem;
+	color: #ee7674;
+}
+
+.octolio_save_db .octolio_loader{
+	width: 1.5rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.download_db_backup{
+	display: block;
+}
